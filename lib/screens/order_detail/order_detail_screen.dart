@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../theme/app_theme.dart';
 import '../../data/mock_data.dart';
+import '../../models/order.dart';
 import '../../widgets/timeline_widget.dart';
 
 class OrderDetailScreen extends StatelessWidget {
