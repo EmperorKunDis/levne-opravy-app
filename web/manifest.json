@@ -1,0 +1,72 @@
+{
+  "name": "Levné Opravy",
+  "short_name": "LevnéOpravy",
+  "description": "Digitální stavbyvedoucí do kapsy. Sledujte průběh vaší rekonstrukce, schvalujte změny a komunikujte s řemeslníky.",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F5F5",
+  "theme_color": "#E30613",
+  "lang": "cs",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Domovská obrazovka"
+    },
+    {
+      "src": "screenshots/catalog.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Katalog služeb"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Katalog služeb",
+      "short_name": "Katalog",
+      "description": "Prohlédněte si náš katalog služeb",
+      "url": "/#/catalog",
+      "icons": [{ "src": "icons/catalog-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Kalkulátor",
+      "short_name": "Kalkulátor",
+      "description": "Spočítejte si orientační cenu",
+      "url": "/#/calculator",
+      "icons": [{ "src": "icons/calculator-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
